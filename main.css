@@ -1,0 +1,226 @@
+@media (min-width: 768px) {
+  .mainBox {
+    width:50%
+  }
+}
+@media (max-width: 768px) {
+  .mainBox {
+    width:100%
+  }
+  .col-sm-6 {
+    width:49%;
+    display:inline-block;
+  }
+  .col-sm-3 {
+   width:23%;
+   display:inline-block;
+   padding:5px;
+  }
+  button {
+    margin-top:50px;
+  }
+}
+
+nav {
+  background-color: ;
+  border-bottom:0px;
+}
+
+ul {
+  list-style:none;
+  text-align: right;
+  border-bottom:0px;
+}
+
+li {
+  display:inline-block;
+  padding:10px;
+}
+
+.backerground {
+  background: linear-gradient(215deg, #ff813c, #d11f6e);
+  position:fixed;
+  right:0;
+  left:0;
+  top:0;
+  bottom:0;
+  z-index:-1
+}
+
+.mainBox {
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  height: 400px;
+}
+
+.formBox {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.contain {
+  width: 75%;
+  text-align:center;
+  padding:5px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.iconBox {
+  margin-top: 20px;
+  height: 40px;
+  margin-left:-10px!important;
+  margin-right:-10px!important;
+}
+
+.glyphicon {
+  background-color: rgba(250,250,250,0.2);
+  padding:10px;
+  border-radius:24px;
+  color:white;
+  font-size:25px
+}
+
+.iconBox p {
+  color: rgba(250,250,250,0.8);
+  font-weight:bold;
+}
+
+.glyphicon:hover {
+  background-color: white;
+  color:#d11f6e;
+}
+
+.textBox {
+  color: white;
+}
+
+#location {
+  padding-top:24px;
+  padding-bottom:2px;
+  margin-top:20px;
+  width:100%;
+  height: 50px;
+  margin-bottom:5px;
+}
+
+.row {
+  margin-left:0;
+  margin-right:0;
+}
+
+.first {
+  left:-2px;
+}
+
+.second {
+  right:-2px;
+}
+
+.col-sm-6 input , select {
+  width: 98%;
+  padding-top:24px;
+  padding-bottom:2px;
+  height:50px
+}
+
+input , select {
+  background-color: rgba(250,250,250,0.2);
+  border:0;
+  font-size:large;
+  border-radius:3px;
+  transition: all 0.4s ease-in-out;
+  color:pink;
+}
+
+select {
+  -webkit-appearance:none;
+}
+
+input:focus , input:hover, select:hover {
+  background-color:white;
+  color:black;
+}
+
+.col-sm-6 , .col-sm-12{
+  padding-left:0;
+  padding-right:0;
+}
+
+
+button {
+  width: 100%;
+  height: 50px;
+  background: rgba(50,50,50,0.2);
+  border:0;
+  color:white;
+  font-size:x-large
+  
+}
+button:hover {
+  background: rgba(50,50,50,0.4);
+}
+/* @media screen and (min-width: 480px) */
+.bg {
+  background: url(https://www.thetreecenter.com/wp-content/uploads/palm-trees-beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    min-height: 100vh;
+    opacity: 0.1
+}
+
+.col-sm-6 p {
+  position:absolute;
+  left:5px;
+  top:0;
+  color: rgba(255, 255, 255, 0.498039);
+}
+.col-sm-12 {
+  color: rgba(255,255,255,0.498039)
+}
+
+input:hover + p , input:focus + p {
+  color:rgb(230,75,88);
+}
+
+.col-sm-12 p {
+  position:absolute;
+  top:20px;
+  left:5px;
+}
+
+a {
+  color: rgba(250,250,250,0.6);
+  font-size:large;
+  font-weight:bold;
+}
+
+a:hover {
+  color: rgba(250,250,250,1.0);
+  text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder { 
+  color: pink;
+}
+::-moz-placeholder { 
+  color: pink;
+}
+:-ms-input-placeholder { 
+  color: pink;
+}
+:-moz-placeholder { 
+  color: pink;
+}
+
+
