@@ -2,6 +2,11 @@
   .mainBox {
     width:75%
   }
+
+.contain {
+  width: 75%;
+}
+
 }
 @media (max-width: 768px) {
   .mainBox {
@@ -19,6 +24,24 @@
   button {
     margin-top:50px;
   }
+
+.contain {
+  width:100%;
+}
+
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  font-size:16px;
+}
+
+h1 , button {
+  font-family: 'Bahiana', cursive;
+}
+
+h1 {
+  font-size: 5em;
 }
 
 nav {
@@ -60,9 +83,8 @@ li {
 }
 
 .contain {
-  width: 75%;
+  padding-top:40px;
   text-align:center;
-  padding:5px;
   margin-left:auto;
   margin-right:auto;
 }
@@ -98,6 +120,7 @@ li {
 
 #location {
   padding-top:24px;
+  padding-left:5px;
   padding-bottom:2px;
   margin-top:20px;
   width:100%;
@@ -123,6 +146,7 @@ li {
   padding-top:24px;
   padding-bottom:2px;
   height:50px
+  padding-left:5px;
 }
 
 input , select {
@@ -131,7 +155,7 @@ input , select {
   font-size:large;
   border-radius:3px;
   transition: all 0.4s ease-in-out;
-  color:pink;
+  color:white;
 }
 
 select {
@@ -155,7 +179,7 @@ button {
   background: rgba(50,50,50,0.2);
   border:0;
   color:white;
-  font-size:x-large
+  font-size:xx-large
   
 }
 button:hover {
@@ -211,16 +235,17 @@ a:hover {
 
 
 ::-webkit-input-placeholder { 
-  color: pink;
+  color: white;
+  opacity:0.5;
 }
 ::-moz-placeholder { 
-  color: pink;
+  color: white;
 }
 :-ms-input-placeholder { 
-  color: pink;
+  color: white;
 }
 :-moz-placeholder { 
-  color: pink;
+  color: white;
 }
 
 
